@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Inconsolata:wght@200&family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+
+    body {
+        background-color: #111;
+
+    }
+    A IMG { border: none; }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    footer{
+      color:#bbb;
+      font-family: 'Inconsolata', monospace;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      cursor: default;
+
+    }
+
+    p{
+      position: relative;
+      z-index: 1;
+      text-indent: 40px;
+      margin-top: 1px;
+      margin-bottom: 1px;
+    }
+
+
+
+
+
+
+
+    .wrapper{
+      margin: 200px auto;
+      cursor: default;
+      min-height: 450px;
+
+    }
+
+    .pic{
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+
+
+
+    .aboutme{
+      display: flex;
+      font-family: 'Inconsolata', monospace;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      color: #bbb;
+      margin-left: 30px;
+
+         -webkit-animation: fadeInFromNone 20s ease-out;
+         -moz-animation: fadeInFromNone 20s ease-out;
+         -o-animation: fadeInFromNone 20s ease-out;
+         animation: fadeInFromNone 20s ease-out;
+    }
+
+    h2{
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+
+
+
+
+    .hubs{
+      margin-right: 10px;
+      display: block;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      letter-spacing:  20px;
+
+
+
+         -webkit-animation: fadeInFromNone 80s ease-out;
+         -moz-animation: fadeInFromNone 80s ease-out;
+         -o-animation: fadeInFromNone 80s ease-out;
+         animation: fadeInFromNone 80s ease-out;
+
+    }
+
+
+    .title {
+        width: 100%;
+        font-family: "Montserrat";
+        text-align: center;
+        color: #FFF;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 20%;
+        letter-spacing: 3px;
+    }
+
+    .text::after{
+      content:'';
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      width: 100%;
+      height: 100%;
+      border-radius: 0 0 20px 20px;
+      background: #000;
+      opacity: 60%;
+    }
+
+    .text{
+      position: relative;
+      color:#fff;
+      text-shadow: black 1px 1px 0, black -1px -1px 0,
+                 black -1px 1px 0, black 1px -1px 0;
+
+      font-family: 'Exo 2', sans-serif;
+      font-style: normal;
+      border-radius: 0 0 20px 20px;
+      background: url(https://media.giphy.com/media/26B5EUF2JXmAO0N2w/giphy.gif);
+
+      margin: 0 auto;
+      width: 500px;
+      height: 250px;
+      padding:10px;
+    }
+
+    .backend{
+      color:#ececec;
+      text-decoration: none;
+
+    }
+    .backend:hover{
+      background:url(https://media.giphy.com/media/c9yCvhJeIcdH2/giphy.gif);
+      color: #fff;
+      text-shadow: black 1px 1px 0, black -1px -1px 0,
+                 black -1px 1px 0, white 1px -1px 0;
+    }
+
+
+    h1 {
+      /*  background-image: url(https://media.giphy.com/media/l2SpSPD5I0NfXI4SI/giphy.gif);*/
+      /*  background-image: url(https://media.giphy.com/media/c9yCvhJeIcdH2/giphy.gif);*/
+      /*  background-image: url(https://media.giphy.com/media/3oEduVaPPh7bYfI2f6/giphy.gif);*/
+      /*  background-image: url(https://media.giphy.com/media/DZa6DFMAz7boc/giphy.gif);*/
+      /*background-image: url(https://media.giphy.com/media/3ov9jS6xYOL3xCpHHO/giphy.gif);*/
+        background-image: url(https://media.giphy.com/media/3o6fIUQjrb4DP1L4VG/giphy.gif);
+        background-size: cover;
+        color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        text-transform: uppercase;
+        font-size: 120px;
+        line-height: .75;
+        margin: 10px 0;
+    }
+.h11{
+  background-image: url(https://media.giphy.com/media/3oEduVaPPh7bYfI2f6/giphy.gif);
+}
+
+    .white-mode {
+        text-decoration: none;
+        padding: 7px 10px;
+        background-color: #000;
+        border-radius: 3px;
+        color: #FFF;
+        -webkit-transition: .35s ease-in-out;
+        transition: .35s ease-in-out;
+        position: absolute;
+        left: 15px;
+        bottom: 100px;
+        font-family: "Montserrat";
+    }
+
+    .white-mode:hover {
+        background-color: #FFF;
+        color: #000;
+    }
